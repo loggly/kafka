@@ -1,7 +1,7 @@
 ./sbt update
 ./sbt package
 ./sbt make-pom
-mkdir -p  $HOME/.m2/repository/kafka/core-kafka_2.8.0/0.7.2/
-cp core/target/scala_2.8.0/kafka-0.7.2.pom $HOME/.m2/repository/kafka/core-kafka_2.8.0/0.7.2/core-kafka_2.8.0-0.7.2.pom
-cp core/target/scala_2.8.0/kafka-0.7.2.jar $HOME/.m2/repository/kafka/core-kafka_2.8.0/0.7.2/core-kafka_2.8.0-0.7.2.jar
+mkdir -p  $HOME/.m2/repository/kafka/core-kafka_2.9.1/0.7.2/
+cp core/target/scala_2.9.1/kafka-0.7.2.pom $HOME/.m2/repository/kafka/core-kafka_2.9.1/0.7.2/core-kafka_2.9.1-0.7.2.pom
+cp core/target/scala_2.9.1/kafka-0.7.2.jar $HOME/.m2/repository/kafka/core-kafka_2.9.1/0.7.2/core-kafka_2.9.1-0.7.2.jar
 
